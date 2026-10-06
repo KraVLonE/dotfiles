@@ -1,0 +1,28 @@
+# Python virtual environments
+shenv/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Local secrets and environment files
+.env
+*.env
+secrets.*
+*.key
+*.pem
+
+# Editor and temporary files
+*.swp
+*.swo
+*~
+*.tmp
+.DS_Store
+
+# Shell backups
+*.bak
+*.backup*
+
+scripts/.local/bin/test.sh
+scripts/.local/bin/test-cpsetup.sh

@@ -1,0 +1,7 @@
+# Git accounts configuration template for git-switch
+# Copy this to ~/.config/dotfiles/git-accounts.conf
+#
+# Format: GIT_ACCOUNTS["alias"]="<username> <email> <path_to_ssh_key>"
+declare -A GIT_ACCOUNTS
+GIT_ACCOUNTS["personal"]="YourName personal@example.com $HOME/.ssh/keys/github-personal"
+GIT_ACCOUNTS["work"]="WorkName work@company.com $HOME/.ssh/keys/github-work"
